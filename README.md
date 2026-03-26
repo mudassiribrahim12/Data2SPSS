@@ -265,8 +265,7 @@ Data2SPSS was built using several R packages including:
 ## Support
 
 For issues, questions, suggestions, or permission to deploy on personal servers:
-- Contact the author via email
-
+- Contact the author via email: mudassiribrahim30@gmail.com
 ---
 
 **Data2SPSS: Making data preparation faster, easier, and more reliable for researchers worldwide.**
