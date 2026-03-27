@@ -1850,7 +1850,7 @@ html, body {
   ),
   
   # Floating App Name (always visible)
-  tags$a(href = "#", class = "floating-app-name", "Data2SPSS"),
+  #tags$a(href = "#", class = "floating-app-name", "Data2SPSS"),
   
   # Theme Toggle Button
   tags$button(
