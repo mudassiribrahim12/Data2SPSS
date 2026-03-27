@@ -2013,7 +2013,7 @@ html, body {
                   div(class = "blog-card",
                       h4("📁 Data Import"),
                       # CRITICAL FIX: Added accept attribute for all file types including SAS xpt
-                      fileInput("file_input", "Choose Data File (No size limit - supports any file size)",
+                      fileInput("file_input", "Choose Data File",
                                 accept = c(".csv", ".xlsx", ".xls", ".dta", ".sav", ".sas7bdat", ".xpt",
                                            ".rdata", ".tsv", ".txt", ".jmp", ".por"),
                                 multiple = FALSE,
@@ -2350,8 +2350,7 @@ html, body {
                         tags$li("Interactive data preview and analysis"),
                         tags$li("Professional academic-inspired interface design"),
                         tags$li("Handles datasets of any size (memory permitting)"),
-                        tags$li("NO FILE SIZE LIMIT - Upload datasets with trillions of records"),
-                        tags$li("Full SAS JMP support with .xpt file export using haven package"),
+                        tags$li("Full SAS JMP support with .xpt file export"),
                         tags$li("Robust error handling - automatically fixes illegal characters in variable names and data values"),
                         tags$li("Optimized for large datasets (500,000+ rows) with memory-efficient processing")
                       )
